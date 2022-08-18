@@ -94,7 +94,8 @@ while(1):
              1.Press A if you are Admin
              2.Press U if you are User
              3.Press N if you want to close the App
-             4.Press B if you want to browse without logging in''')
+             4.Press B if you want to browse without logging in
+             5.Press E if you want to exit''')
     a=input("Enter your Identity-->  ")
     a=a.upper()
     if a=='A':
@@ -992,22 +993,22 @@ while(1):
                         elif (sum<30000 and sum>=15000) :
                             print("You get a 15% off!!")
                             sum=sum-0.15*sum
-                            print(f'''HI {name}\nYour bill is of Rs. {sum}\nYour order will be delieverd to {addr} by 28  April'''')
+                            print(f'''HI {name}\nYour bill is of Rs. {sum}\nYour order will be delieverd to {addr} by 28  April''')
                             print("Thanks for shopping")
                         elif (sum<50000 and sum>=30000) :
                             print("You get a 25% off!!")
                             sum=sum-0.25*sum
-                            print(f'''HI {name}\nYour bill is of Rs. {sum}\nYour order will be delieverd to {addr} by 28 April'''')
+                            print(f'''HI {name}\nYour bill is of Rs. {sum}\nYour order will be delieverd to {addr} by 28 April''')
                             print("Thanks for shopping")
                         elif (sum>=50000) :
                             print("You get a 45% off!!")
                             sum=sum-0.45*sum
-                            print(f'''HI {name}\nYour bill is of Rs. {sum}\nYour order will be delieverd to {addr} by 28  April'''')
+                            print(f'''HI {name}\nYour bill is of Rs. {sum}\nYour order will be delieverd to {addr} by 28  April''')
                             print("Thanks for shopping")
                         else :
                             print(f'''Buy above 10000 and get your discount\nHI {name},\n Your total bill is of Rs. {sum} and will be delieverd to {addr} by 28 April' ''')
                     elif dis=="B":
-                        print(f'''HI {name},\n Your total bill is of Rs. {sum} and will be delieverd to {addr} by 28  April'''')
+                        print(f'''HI {name},\n Your total bill is of Rs. {sum} and will be delieverd to {addr} by 28  April''')
                         print("Thanks for shopping")
                         
                 elif(caty==2):
@@ -1178,12 +1179,12 @@ while(1):
                         elif (sum>=50000) :
                             print("You get a 45% off!!")
                             sum=sum-0.45*sum
-                            print(f'''HI {name}\nYour bill is of Rs. {sum}\nYour order will be delieverd to {addr} by 28 April'''') 
+                            print(f'''HI {name}\nYour bill is of Rs. {sum}\nYour order will be delieverd to {addr} by 28 April''') 
                             print("Thanks for shopping")
                         else :
-                            print(f'''Buy above 10000 and get your discount\nHI {name},\n Your total bill is of Rs. {sum} and will be delieverd to {addr} by 28 March ''')
+                            print(f'''Buy above 10000 and get your discount\nHI {name},\n Your total bill is of Rs. {sum} and will be delieverd to {addr} by 28 April ''')
                     elif dis=="B":
-                        print(f'''HI {name},\n Your total bill is of Rs. {sum} and will be delieverd to {addr} by 28  April'''')
+                        print(f'''HI {name},\n Your total bill is of Rs. {sum} and will be delieverd to {addr} by 28  April''')
                         print("Thanks for shopping")
                     
                 elif(caty==3):
@@ -1269,12 +1270,12 @@ while(1):
                         if (sum<15000 and sum >10000) :
                             print("You get a 5% off!!")
                             sum=sum-0.05*sum
-                            print(f'''HI {name}\nYour bill is of Rs. {sum}\nYour order will be delieverd to {addr} by 28  April'''')
+                            print(f'''HI {name}\nYour bill is of Rs. {sum}\nYour order will be delieverd to {addr} by 28  April''')
                             print("Thanks for shopping")
                         elif (sum<30000 and sum>=15000) :
                             print("You get a 15% off!!")
                             sum=sum-0.15*sum
-                            print(f'''HI {name}\nYour bill is of Rs. {sum}\nYour order will be delieverd to {addr} by 28 April'''')
+                            print(f'''HI {name}\nYour bill is of Rs. {sum}\nYour order will be delieverd to {addr} by 28 April''')
                             print("Thanks for shopping")
                         elif (sum<50000 and sum>=30000) :
                             print("You get a 25% off!!")
